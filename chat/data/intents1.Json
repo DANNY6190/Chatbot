@@ -1,0 +1,193 @@
+{
+    "intents": [{
+            "tag": "Matin",
+            "patterns": [
+                "salut",
+                "Hey",
+                "Bonjour",
+                "Hello",
+                "Hi"
+            ],
+            "responses": [
+                "Hey salut",
+                "Bonjour, merci de m'avoir saluer",
+                "Bonjour, que puis-je faire pour vous ?",
+                "Bonjour, comment puis-je vous aider ?",
+                "Bonjour",
+                "Hello"
+            ]
+        },
+        {
+            "tag": "Soirée",
+            "patterns": ["Bonsoir"],
+            "responses": ["Bonsoir"]
+        },
+        {
+            "tag": "Santé",
+            "patterns": [
+                "Comment allez-vous",
+                "comment vas-tu",
+                "comment tu vas?",
+                "Tu vas bien?",
+                "ça va ?",
+                "J'espère que vous allez bien",
+                "J'espère que tu vas bien"
+            ],
+            "responses": [
+                "Bien merci et vous ?", "ça va merci et vous ?", "La forme merci et qu'en est-il de vous?", "Je suis là votre humble serviteur. Vous j'espère que ça va bien",
+                "Bien merci par la grâce et vous ?"
+            ]
+        },
+        {
+            "tag": "Au revoir",
+            "patterns": ["Au revoir", "A plus tard", "A bientot"],
+            "responses": [
+                "A plus tard, merci de votre visite ",
+                "C'etait un plaisir",
+                "Au revoir! Revenez vite.",
+                "A+ Je suis là pour vous",
+                "A la prochaine",
+                "Passez une bonne journée"
+            ]
+        },
+        {
+            "tag": "Merci",
+            "patterns": ["Merci", "Thank you", "cool","super", "merci merci",  "C'est utile", "Merci beaucoup", "Vous m'avez beaucoup aider", "Je suis satisfait", "Merci", "Tres interessant"],
+            "responses": ["Heureux de vous aider", "Merci à vous je suis disposer pour de quelconque amélioration", "C'etait un plaisir", "Je suis là pour vous"]
+        },
+        {
+            "tag": "Validation",
+            "patterns": ["Ok", "okay", "D'accord", "Ca marche", "Vous m'avez beaucoup aider", "Cool", "Merci", "Tres interessant"],
+            "responses": ["D'accord ça marche", "Okay bien", "Cool", "Super"]
+        },
+        {
+            "tag": "AucuneReponse",
+            "patterns": [],
+            "responses": [
+                "Désolé je ne suis pas sure de vous comprendre",
+                "S'il vous plait pouvez-vous me donner plus d'informations",
+                "Désolé je ne vous comprends pas"
+            ]
+        },
+        {
+            "tag": "Fonctionnalité",
+            "patterns": [
+                "Comment pouvez vous m'aider ?",
+                "A quoi tu sers",
+                "Quelles sont tes fonctionnalités",
+                "Je veux connaitre ton rôle",
+                "Comment es-tu utile ?",
+                "Quelle est ton utilité",
+                "Quelles sont tes avantages ?"
+            ],
+            "responses": [
+                "A plus tard, merci de votre visite ",
+                "C'etait un plaisir",
+                "Au revoir! Revenez vite.",
+                "A+ Je suis là pour vous",
+                "A la prochaine",
+                "Passez une bonne journée"
+            ]
+        },
+        {
+            "tag": "Createur",
+            "patterns": ["Qui est ton créateur ?", "Qui sont tes parents ?", "Comment existes tu ?", "Tu viens d'où"],
+            "responses": [
+                "Les étudiants NOUBOUDEM Nelvine, FOTSO Valdez et DADA Nelson sont mes créateurs",
+                "J'ai été crée par le trio légendaire",
+                "Je suis la solution apporté par NOUBOUDEM Nelvine, FOTSO Valdez et DADA Nelson"
+            ]
+        },
+        {
+            "tag": "éléments",
+            "patterns": [
+                "Quels articles avez-vous ?",
+                "Quels types d'articles y a-t-il ?",
+                "Que vendez-vous?"
+            ],
+            "responses": [
+                "Nous vendons du cafer et du the",
+                "Nous avons du cafer et du the"
+            ]
+        },
+        {
+            "tag": "Paiements",
+            "patterns": [
+                "Prenez-vous les cartes de crédit?",
+                "Acceptez-vous MasterCard?",
+                "Puis-je payer avec Paypal ?",
+                "Êtes-vous en espèces seulement?"
+            ],
+            "responses": [
+                "Nous acceptons VISA, Mastercard et Paypal",
+                "Nous acceptons la plupart des principales cartes de crédit et Paypal"
+            ]
+        },
+        {
+            "tag": "livraison",
+            "patterns": [
+                "Combien de temps prend la livraison?",
+                "Combien de temps prend la livraison?",
+                "Quand est-ce que je reçois ma livraison?"
+            ],
+            "responses": [
+                "La livraison prend 2-4 jours",
+                "L'expédition prend 2-4 ours"
+            ]
+        },
+        {
+            "tag": "marrant",
+            "patterns": [
+                "Raconte moi une blague!",
+                "Dis-moi quelque chose de drole !",
+                "Tu connais une blague ?"
+            ],
+            "responses": [
+                "Pourquoi le hipster s'est-il bruler la bouche ? Il a bu le cafer avant qu'il ne refroidisse.",
+                "Qu'a dit le bison quand son fils est parti à l'université ? Bison."
+
+            ]
+        },
+        {
+            "tag": "identité",
+            "patterns": [
+                "ton nom", "comment t'appelles-tu", "qui es-tu",
+                "qu'est-ce que tu es"
+            ],
+            "responses": [
+                "Jarvis", "Je suis jarvis", "Un assistant IA",
+                "Je m'appelle Jarvis", "Grande assistance"
+            ]
+        },
+        {
+            "tag": "heure",
+            "patterns": [
+                "Quelle est l'heure", "heure", "il est qu'elle l'heure",
+                "Quelle heure est-t-il?"
+            ],
+            "responses": [
+                "heure"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "Quelle est la date", "date", "quelle date sommes nous",
+                "Quelle est la date d'aujourd'hui?"
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "jour",
+            "patterns": [
+                "Quelle est le jour?", "jour", "Quelle jour sommes nous?",
+                "Nous sommes quand?", "Quand sommes nous", "Quelle jour est-t-il?"
+            ],
+            "responses": [
+                "jour"
+            ]
+        }
+    ]
+}
